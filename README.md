@@ -22,23 +22,33 @@
 ## Setup
 ### Requirements
 - One USB flash drive of 8GB or bigger
-- macOS Mojave install app (size: 6GB) ([use macOS Mojave Patcher](http://dosdude1.com/mojave/) to download, sometime you download on AppStore only have 5-6MB)
-- Clover Bootloader in [here](https://sourceforge.net/projects/cloverefiboot/) Recomemed for verison 4961
+- Download macOS Mojave install app (size: 6GB) ([use macOS Mojave Patcher](http://dosdude1.com/mojave/) to download, sometime you download on AppStore only have 5-6MB)
+- Download Clover Bootloader in [here](https://sourceforge.net/projects/cloverefiboot/) Recomemed for verison 4961
 - Clover custom some part for install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v2.4k-r4961)
-- Clover for OS after install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v2.4k-r4961-b)
+- Download Clover for OS after install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v2.4k-r4961-b)
 
 ### Bootable USB Drive
-<strong>Note</strong>: Create Bootable USB Drive on macOS device (VWmare or VituralBox)
-[Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
-
+<strong>Note</strong>: Create Bootable USB Drive on macOS device (VMware or VituralBox)
+- [Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
+- Adter Create Bootable USB Drive, one Disk with name EFI is show in desktop, open it and go to code>EFI/CLOVER</code>
+- Exact a <code>CloverForInstallOS.zip</code> and open <code>CloverForInstallOS</code> 
+- In <code>CloverForInstallOS</code> , you see 1 file config.plist and 3 folder are drivers, kexts and pactched.
+- Replace <code>config.plist</code> in <code>EFI/CLOVER</code> with <code>config.plist</code> in <code>CloverForInstallOS</code> 
+- Go to <code>EFI/CLOVER/kexts</code> and remove all folder except folder "Other".
+- Copy all kext in <code>CloverForInstallOS/kexts</code> to <code>EFI/CLOVER/kexts/Other</code>.
+- Go to <code>EFI/CLOVER/ACPI</code> and replace <code>patched</code> folder with <code>patched</code> folder from <code>CloverForInstallOS</code>
+- Last, copy file in <code>CloverForInstallOS/drives/HFSPlus.efi</code> to <code>EFI/CLOVER/drivers64UEFI</code>.
+![Clover](https://raw.githubusercontent.com/ngdanghau/DELL-latitude-E6540-macOS/master/screenshots/Clover.png)
 ### Bios Settings
 Set to <code>Default</code>, apply, then set <code>SATA Operations</code> to <code>AHCI</code>, set <code>Boot List Option</code> to <code>UEFI</code>.
 
 ## Install macOS
 You Can Do It Yourself
+
 ## Post-Installation
 Install Clover Bootloader to Drive have OS
 Read in [Post Installation](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Post-Installation)
+
 ## Fix issue
 - ...
 - for other issue, you can see [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/issues)
