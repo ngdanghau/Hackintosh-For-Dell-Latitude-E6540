@@ -29,7 +29,7 @@
 
 ### Bootable USB Drive
 <strong>Note</strong>: Create Bootable USB Drive on macOS device (VWmare or VituralBox)
-(Create Bootable USB Drive)[https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive]
+[Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
 
 ### Bios Settings
 Set to Default, apply, then set SATA Operations to AHCI, set Boot List Option to UEFI.
