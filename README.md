@@ -38,7 +38,7 @@ Set to Default, apply, then set SATA Operations to AHCI, set Boot List Option to
 You Can Do It Yourself
 ## Post-Installation
 Install Clover Bootloader to Drive have OS
-
+Read in [Post Installation](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Post-Installation)
 ## Fix issue
 - ...
 - for other issue, you can see [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/issues)
