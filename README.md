@@ -28,7 +28,9 @@
 - Download Clover for OS after install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v2.4k-r4961)
 
 ### Bootable USB Drive
-<strong>Note</strong>: Create Bootable USB Drive on macOS device (VMware or VituralBox)
+<strong>Note</strong>: 
+- Create Bootable USB Drive on macOS device (VMware or VituralBox)
+- In Clover v2.5k, some foler change name. <code>driver64UEFI</code> to <code>drivers/UEFI</code>
 - [Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
 - Adter Create Bootable USB Drive, one Disk with name EFI is show in desktop, open it and go to code>EFI/CLOVER</code>
 - Exact a <code>CloverForInstallOS.zip</code> and open <code>CloverForInstallOS</code> 
