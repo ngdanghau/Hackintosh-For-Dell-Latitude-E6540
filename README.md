@@ -32,7 +32,7 @@
 - Create Bootable USB Drive on macOS device (VMware or VituralBox)
 - In Clover v2.5k, some foler change name. <code>driver64UEFI</code> to <code>drivers/UEFI</code>
 - [Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
-- Adter Create Bootable USB Drive, one Disk with name EFI is show in desktop, open it and go to code>EFI/CLOVER</code>
+- Adter Create Bootable USB Drive, one Disk with name EFI is show in desktop, open it and go to <code>EFI/CLOVER</code>
 - Exact a <code>CloverForInstallOS.zip</code> and open <code>CloverForInstallOS</code> 
 - In <code>CloverForInstallOS</code> , you see 1 file config.plist and 3 folder are drivers, kexts and pactched.
 - Replace <code>config.plist</code> in <code>EFI/CLOVER</code> with <code>config.plist</code> in <code>CloverForInstallOS</code> 
