@@ -2,7 +2,7 @@
 ==================
 ## What works?
 - BIOS: A26
-- Processor: Intel Core Intel® Core™ i7-4600M (All SpeedStep stages).
+- Processor: Intel Core Intel® Core™ i7-4600M & i7-4810MQ (Upgrage CPU) (All SpeedStep stages).
 - Video Card: Intel® HD Graphics 4600 <code>Work with QE/CI</code>.
 - Chipset: Intel I217-LM <code>Work</code>
 - Mini DisplayPort <code>No device for test</code>
@@ -28,7 +28,6 @@
 - Download Clover for OS after install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v2.4k-r4961)
 
 ### Bootable USB Drive
-<strong>Note</strong>: 
 - Create Bootable USB Drive on macOS device (VMware or VituralBox)
 - In Clover v2.5k, some foler change name. <code>driver64UEFI</code> to <code>drivers/UEFI</code>
 - [Create Bootable USB Drive](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/wiki/Create-Bootable-USB-Drive)
@@ -45,7 +44,9 @@
 Set to <code>Default</code>, apply, then set <code>SATA Operations</code> to <code>AHCI</code>, set <code>Boot List Option</code> to <code>UEFI</code>.
 
 ## Install macOS
-You Can Do It Yourself
+1. Restart PC, boot from USB, choose "Install macos from Majave"
+2. Waiting for boot
+3. Install macos: You Can Do It Yourself
 
 ## Post-Installation
 Install Clover Bootloader to Drive have OS
