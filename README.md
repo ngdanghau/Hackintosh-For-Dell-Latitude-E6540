@@ -24,7 +24,7 @@
 - Airdrop, Handoff, Instant Hotspot and Continuity <strong>(Only Work With DW1550 because it have Standard IEEE is 802.11ac and Frequency Range is 5GHz)</strong>
 ## Setup
 ### Requirements
-- One USB flash drive of 8GB or bigger
+- One USB flash drive of 8GB (for Mojave) or 16GB (for Catalina)
 - Download macOS Mojave install app (size: 6GB) ([use macOS Mojave Patcher](http://dosdude1.com/mojave/) to download, sometime you download on AppStore only have 5-6MB)
 - Download Clover Bootloader in [here](https://sourceforge.net/projects/cloverefiboot/) Recomemed for verison 4961
 - Clover custom some part for install in [here](https://github.com/ngdanghau/DELL-latitude-E6540-macOS/releases/tag/v1.0)
