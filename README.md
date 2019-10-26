@@ -1,4 +1,6 @@
-# Installing macOS Mojave 10.14.5
+# Installing macOS on Dell Latitude E6540
+- Mojave 10.14.x
+- Catalina 10.15.x
 ==================
 ## What works?
 - BIOS: A26
