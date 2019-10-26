@@ -49,7 +49,7 @@
 Set to <code>Default</code>, apply, then set <code>SATA Operations</code> to <code>AHCI</code>, set <code>Boot List Option</code> to <code>UEFI</code>.
 
 ## Install macOS
-1. Restart PC, boot from USB, choose "Install macos from Majave"
+1. Restart PC, boot from USB, choose "Install macos from Mojave(Catalina)"
 2. Waiting for boot
 3. Install macos: You Can Do It Yourself
 
