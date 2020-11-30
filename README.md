@@ -71,4 +71,4 @@ Read in [Post Installation](https://github.com/ngdanghau/DELL-latitude-E6540-mac
 ## Credits
 - Special Thanks to [Acidanthera](https://github.com/acidanthera) for most of the Kexts.
 - Special Thanks to [RehabMan](https://github.com/RehabMan).
-- Thanks to [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/).
+- Thanks to [Clover Bootloader](https://github.com/CloverHackyColor/CloverBootloader).
