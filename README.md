@@ -1,27 +1,34 @@
 # Installing macOS on Dell Latitude E6540
-- Mojave 10.14.x
-- Catalina 10.15.x
+[![Mojave](https://img.shields.io/badge/Mojave-10.14.x-green)]
+[![Catalina](https://img.shields.io/badge/Catalina-10.15.x-green)]
+
+# Notice
+I has sold the laptop. The repo may stop updating.
 
 ==================
-## What works?
+==================
+## What's working?
 - BIOS: A26
 - Processor: Intel Core Intel® Core™ i7-4600M & i7-4810MQ (Upgrage CPU) (All SpeedStep stages).
 - Video Card: Intel® HD Graphics 4600 <code>Work with QE/CI</code>.
 - Chipset: Intel I217-LM <code>Work</code>
-- Mini DisplayPort <code>No device for test</code>
-- HIMI Port <code>No device for test</code>
-- VGA AMD Radeon HD 8790 <code>Not Work</code>
 - Audio: ALC292 <code>Work</code>
 - WiFi/Bluetooth <code>Not Work</code>. Replaced with DW1550 (BCM94352HMB)  to <code>Work</code>(not native - need some kext)
 - Ethernet: Intel I217-LM <code>Work</code>
-- Card Reader  <code>No device for test</code>
 - Keyboard and ALPS Touchpad <code>Work</code>
 - Battery <code>Work</code>
 - Webcam <code>Work</code>
-- Fingerprint Reader <code>Not Work</code>
 - USB3.0 && USB2.0 <code>Work</code>
 - Sleep, Restart, Shutdown <code>Work</code>
 - Airdrop, Handoff, Instant Hotspot and Continuity <strong>(Only Work With DW1550 because it have Standard IEEE is 802.11ac and Frequency Range is 5GHz)</strong>
+- Card Reader  <code>No device for test</code>
+
+## What's not working?
+- VGA AMD Radeon HD 8790 <code>Not Work</code>
+- Mini DisplayPort <code>No device for test</code>
+- HIMI Port <code>No device for test</code>
+- Fingerprint Reader <code>Not Work</code>
+
 ## Setup
 ### Requirements
 - One USB flash drive of 8GB (for Mojave) or 16GB (for Catalina)
