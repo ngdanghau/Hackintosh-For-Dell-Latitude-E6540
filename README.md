@@ -1,6 +1,6 @@
 # Installing macOS on Dell Latitude E6540
-[Mojave](https://img.shields.io/badge/Mojave-10.14.x-green)
-[Catalina](https://img.shields.io/badge/Catalina-10.15.x-green)
+![Mojave](https://img.shields.io/badge/Mojave-10.14.x-green)
+![Catalina](https://img.shields.io/badge/Catalina-10.15.x-green)
 
 # Notice
 I has sold the laptop. The repo may stop updating.
